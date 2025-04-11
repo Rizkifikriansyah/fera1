@@ -14,3 +14,17 @@ window.onload = typeWriter;
 function showLove() {
   document.getElementById("popup").classList.remove("hidden");
 }
+
+function showLove() {
+  document.getElementById("popup").classList.remove("hidden");
+  document.getElementById("gallery").classList.add("hidden");
+}
+
+function showGallery() {
+  document.getElementById("gallery").classList.remove("hidden");
+  document.getElementById("popup").classList.add("hidden");
+}
+
+function hideGallery() {
+  document.getElementById("gallery").classList.add("hidden");
+}
